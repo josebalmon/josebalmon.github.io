@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 /*!
  * Clean v2.0.0
@@ -496,12 +495,12 @@ textarea.form-control {
 	display: block;
 	line-height: 35px;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .1);
+	border: 1px solid #E7746F;
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
 	font-size: 14px;
-	color: rgba(255, 255, 255, .2);
+	color: #E7746F;
 }
 
 .social-links a:hover {
@@ -549,12 +548,13 @@ textarea.form-control {
 	background: none;
 	outline: 0;
 	color: #E7746F;
+    text-decoration:underline;
 }
 
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    font-family: Raleway, sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
@@ -590,14 +590,19 @@ textarea.form-control {
 }
 
 .scroll-up a {
-	background-color: rgba(135, 135, 135, 0.5);
+	border: 1px solid #E7746F;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
 	display: block;
 	width: 35px;
 	height: 35px;
 	text-align: center;
-	color: #fff;
+	color: #E7746F;
 	font-size: 15px;
 	line-height: 30px;
+    margin-top: 5px;
+    
 }
 
 .scroll-up a:hover,
