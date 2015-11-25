@@ -55,7 +55,7 @@
             $('.chart').each(function(){
             $(this).easyPieChart({
                     size:140,
-                    animate: 2000,
+                    animate: 8000,
                     lineCap:'butt',
                     scaleColor: false,
                     barColor: '#FF5252',
